@@ -1,0 +1,31 @@
+# Ignore Python byte code files
+__pycache__/
+*.pyc
+
+# Ignore development and IDE-specific files
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.py~
+*.swp
+.DS_Store
+.env
+
+# Ignore static and media files (should be collected and served separately)
+staticfiles/
+media/
+
+# Ignore database configurations and secrets
+*.ini
+*.conf
+*.env
+
+# Ignore local development settings
+settings_local.py
+
+
+# Ignore Docker artifacts
+.dockerignore
+Dockerfile
+docker-compose.yml
